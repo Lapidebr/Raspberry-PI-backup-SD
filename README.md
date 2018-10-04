@@ -1,4 +1,5 @@
-﻿PT_BR 
+﻿PT_BR
+
 **Backup completo SD do Raspberry PI em   Shell script **
 
 Script para realizar backup com uma imagem DD do Raspberry PI e copiar para uma unidade de rede do windows
