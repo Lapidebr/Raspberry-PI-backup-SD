@@ -13,9 +13,9 @@ sudo dd bs=4M if=/dev/mmcblk0 | gzip > /media/USBHDD1/image`date +%a`.gz
 sleep 1080 
 
 #linha que copia dados do backup local para micro em rede no armazenamento compartilhado
-sudo cp /media/USBHDD1//image`date +%a`.gz /media/USBHDD1/shares/Windows_share
+sudo cp /media/USBHDD1/image`date +%a`.gz /media/USBHDD1/shares/Windows_share
 
 #desmonta rede do micro  local
-sudo umount //1192.168.1.50/zimgbkp$
+sudo umount //192.168.1.50/zimgbkp$
 
 #uso futuro abaixo
